@@ -1,0 +1,9 @@
+Public Class Form1
+Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+TabPage1.Text = "FY"
+TabPage2.Text = "SY"
+End Sub
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+TabControl1.TabPages.Add("TY")
+End Sub
+End Class
